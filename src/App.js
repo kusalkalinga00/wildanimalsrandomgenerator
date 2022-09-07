@@ -33,8 +33,22 @@ function App() {
     <main>
       <Animals animals={animals}></Animals>
       <div>
-        <button className="refresh-btn" onClick={fetchAnimals}>New Animal</button>
+        <button className="refresh-btn" onClick={fetchAnimals}>
+          New Animals
+        </button>
       </div>
+      <footer className="footer-main">
+        <h6>
+          Developed by :
+          <a
+            href="https://www.linkedin.com/in/kusal-kalinga-1b72b7208/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Kusal Kalinga
+          </a>
+        </h6>
+      </footer>
     </main>
   );
 }
