@@ -1,5 +1,5 @@
 {
-  "name": "animal_list",
+  "name": "Wild Animals Random Generator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
